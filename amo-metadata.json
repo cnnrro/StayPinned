@@ -1,0 +1,26 @@
+{
+  "categories": { "firefox": ["tabs"] },
+   "summary": {
+      "en-US": "Maintain consistent pinned tabs."
+   },
+  "description": {
+      "en-US": "**StayPinned** prevents accidental navigation away from your pinned tabs. When you're focused on a pinned tab and click on links, encounter automatic redirects, or perform omnibar searches that don't match the pinned tab's hostname, StayPinned automatically opens the new URLs in a separate tab. This ensures your pinned tabs remain consistent and accessible."
+  },
+  "homepage": {
+    "en-US": "https://github.com/cnnrro/StayPinned"
+  },
+  "is_disabled": false,
+  "is_experimental": false,
+  "name": {
+    "en-US": "StayPinned"
+  },
+  "requires_payment": false,
+  "slug": "staypinned",
+  "tags": [],
+  "version": {
+   "license": "MIT",
+   "compatibility": [
+      "firefox"
+   ]
+  }
+}

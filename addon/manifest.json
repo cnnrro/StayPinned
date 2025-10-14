@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "StayPinned",
+  "version": "1.0.0",
+  "description": "Maintain consistent pinned tabs.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{8fc0c154-a049-4746-bdfb-54fad8b0e966}",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "32": "assets/icon.png",
+    "64": "assets/icon@2x.png",
+    "128": "assets/icon@4x.png",
+    "256": "assets/icon@8x.png",
+    "512": "assets/icon@16x.png",
+    "1024": "assets/icon.svg"
+  },
+  "developer": {
+    "name": "cnnrro",
+    "url": "https://github.com/cnnrro/StayPinned"
+  },
+  "homepage_url": "https://github.com/cnnrro/StayPinned"
+}
