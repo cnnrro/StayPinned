@@ -1,0 +1,13 @@
+{
+  "addons": {
+    "{8fc0c154-a049-4746-bdfb-54fad8b0e966}": {
+      "updates": [
+        {
+          "version": "1.0.0",
+          "update_link": "https://github.com/cnnrro/StayPinned/releases/download/v1.0.0/staypinned-1.0.0.xpi",
+          "update_info_url": "https://github.com/cnnrro/StayPinned/releases/tag/v1.0.0"
+        }
+      ]
+    }
+  }
+}
