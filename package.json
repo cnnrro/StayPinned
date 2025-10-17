@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "build.ext": "web-ext build --source-dir ./addon --artifacts-dir ./dist/ --overwrite-dest",
-    "sign": "source ./.env; web-ext sign --channel listed --amo-metadata=amo-metadata.json --source-dir ./addon --artifacts-dir ./dist --api-key=$WEB_EXT_API_KEY --api-secret=$WEB_EXT_API_SECRET",
-    "clear.npm": "rm -rf node_modules package-lock.json",
+    "build.ext": "web-ext build --source-dir ./addon --artifacts-dir ./dist --overwrite-dest",
+    "sign": "source ./.env; web-ext sign --channel listed --amo-metadata=./amo-metadata.json --source-dir ./addon --artifacts-dir ./dist --api-key=$WEB_EXT_API_KEY --api-secret=$WEB_EXT_API_SECRET",
+    "clear.npm": "rm -rf ./node_modules ./package-lock.json",
     "lint": "eslint ./addon && web-ext lint -s ./addon",
     "lint.all": "eslint ./",
     "lint.fix": "eslint ./addon --fix"
